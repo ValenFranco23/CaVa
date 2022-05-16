@@ -11,42 +11,163 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     
 </head>
-<body>
-    <nav>
-        <div class="logo">
-            <img src="../assets/img/nav/logo.png" alt="CaVa">
+<body class="container-fluid">
+    <nav class="row d-flex col-xs-12 col-md-12 justify-content-around">
+        <div class="logo" class="col-xs-12 col-md-3">
+            <img class="img-fluid" src="../assets/img/nav/logo.png" alt="CaVa">
         </div>
-        <div class="nav">
-            <ul class="nav_ul">
-                <li class="nav_ul_li"><a href="./index.html">Inicio</a></li>
-                <li class="nav_ul_li"><a href="./quienes.html">¿Quienes somos?</a></li>
-                <li class="nav_ul_li"><a href="./relojes.html">Relojes</a></li>
-                    <ul class="nav_ul_li__ul">
-                        <li class="nav_ul_li__ul__li"><a href="./casio.html">Casio</a></li>
-                        <li class="nav_ul_li__ul__li"><a href="./garmin.html">Garmín</a></li>
+        <div class="navLista" class="d-flex col-xs-12 col-md-7">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./quienes.html">¿Quienes somos?</a></li>
+                <li><a href="./relojes.html">Relojes</a>
+                    <ul>
+                        <li><a href="./casio.html">Casio</a></li>
+                        <li><a href="./garmin.html">Garmín</a></li>
                     </ul>
-                <li class="nav_ul_li"><a href="./joyas.html">Joyas</a></li>
+                </li>
+                <li><a href="./joyas.html">Joyas</a></li>
             </ul>
         </div>
+        <div class="redesNav" class="d-flex col-md-2">
+            <img class="img-fluid" src="../assets/img/footer/logoface 2-2.png" alt="Facebook">
+            <img class="img-fluid" src="../assets/img/footer/logoinsta50px-2.png" alt="Instagram">
+        </div>
     </nav>
-    <main>
-        <div>
-            <h2>CASIO</h2>
-            <h3>Mirá la colección Vintage de Casio</h3>
-        </div>
-        <div>
-            <h2>GARMÍN</h2>
-            <h3>Mira la colección de Smartwatches de Garmín</h3>
-        </div>
-        <div>
-            <h2>SWAROVSKI</h2>
-            <h3>Mira las novedades en Joyas Swarovski</h3>
-        </div>
+
+    <main class="row">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../assets/img/index/Casio.png" class="d-block w-100" alt="Casio Vintage">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>CASIO</h2>
+                  <h5>Mirá la colección Vintage de Casio</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="..." class="d-block w-100" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2></h2>
+                    <h5></h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/index/swarovski.png" class="d-block w-100" alt="Swarovski">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>SWAROVSKI</h2>
+                    <h5>Mira las novedades en Joyas Swarovski</h5>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../assets/img/index/garmin.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>GARMÍN</h2>
+                    <h5>Mira la colección de Smartwatches de Garmín</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="../assets/img/index/garmin.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+
+
+
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="../assets/img/index/swarovski.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>SWAROVSKI</h2>
+                    <h5>Mira las novedades en Joyas Swarovski</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </main>
-    <footer>
-        <div>
-            <a href="https://www.facebook.com/profile.php?id=100080368554193"><img src="../assets/img/footer/logoface 2.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/cavarelojesjoyas/"><img src="../assets/img/footer/logoinsta50px.png" alt="Instagram"></a>
+    <footer class="d-flex justify-content-center align-content-center col-xs-12 col-md-12">
+        <div class="footerRedes">
+            <a href="https://www.facebook.com/profile.php?id=100080368554193"><img src="../assets/img/footer/logoface 2-2.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/cavarelojesjoyas/"><img src="../assets/img/footer/logoinsta50px-2.png" alt="Instagram"></a>
         </div>
     </footer>
 <!-- JavaScript Bundle with Popper -->

@@ -1,0 +1,57 @@
+nav{
+    height: 100px;
+    align-content: center;
+    .logo{
+        width: 300px;
+    }
+    .redesNav{
+        width: 100px;
+        justify-content: center;
+    }
+    .navLista{
+        width: 700px;
+    }
+        @media (max-width: 600px){
+            .logo{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+            .redesNav{
+                display: none;
+            }
+        }
+    .nav_ul{
+        justify-content: end;
+        align-content: end;
+        width: 1000px;
+    }
+    ul{
+        list-style: none;
+        li{
+            display: inline-block;
+            position: relative;
+            font-size: 20px;
+            padding: 20px;
+            
+        }
+    } 
+    
+    ul ul{
+        display: none;
+        position: absolute;
+        ul ul li{
+            display: block;
+            
+        }
+    }
+    ul li:hover{
+        ul{
+            display: block;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}

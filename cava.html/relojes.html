@@ -11,22 +11,27 @@
     <link rel="stylesheet" href="../assets/css/styles.css">
     
 </head>
-<body>
-    <nav>
-        <div class="logo">
-            <img src="../assets/img/nav/logo.png" alt="CaVa">
+<body class="container-fluid">
+    <nav class="row d-flex col-xs-12 col-md-12 justify-content-around">
+        <div class="logo" class="col-xs-12 col-md-3">
+            <img class="img-fluid" src="../assets/img/nav/logo.png" alt="CaVa">
         </div>
-        <div class="nav">
-            <ul class="nav_ul">
-                <li class="nav_ul_li"><a href="./index.html">Inicio</a></li>
-                <li class="nav_ul_li"><a href="./quienes.html">¿Quienes somos?</a></li>
-                <li class="nav_ul_li"><a href="./relojes.html">Relojes</a></li>
-                    <ul class="nav_ul_li__ul">
-                        <li class="nav_ul_li__ul__li"><a href="./casio.html">Casio</a></li>
-                        <li class="nav_ul_li__ul__li"><a href="./garmin.html">Garmín</a></li>
+        <div class="navLista" class="d-flex col-xs-12 col-md-7">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./quienes.html">¿Quienes somos?</a></li>
+                <li><a href="./relojes.html">Relojes</a>
+                    <ul>
+                        <li><a href="./casio.html">Casio</a></li>
+                        <li><a href="./garmin.html">Garmín</a></li>
                     </ul>
-                <li class="nav_ul_li"><a href="./joyas.html">Joyas</a></li>
+                </li>
+                <li><a href="./joyas.html">Joyas</a></li>
             </ul>
+        </div>
+        <div class="redesNav" class="d-flex col-md-2">
+            <img class="img-fluid" src="../assets/img/footer/logoface 2-2.png" alt="Facebook">
+            <img class="img-fluid" src="../assets/img/footer/logoinsta50px-2.png" alt="Instagram">
         </div>
     </nav>
     <main>
@@ -45,10 +50,10 @@
             <img src="../assets/img/garmin/010-02157-26.jpg" alt="010-02157-26.jpg">
         </div>
     </main>
-    <footer>
-        <div>
-            <a href="https://www.facebook.com/profile.php?id=100080368554193"><img src="../assets/img/footer/logoface 2.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com/cavarelojesjoyas/"><img src="../assets/img/footer/logoinsta50px.png" alt="Instagram"></a>
+    <footer class="d-flex justify-content-center align-content-center col-xs-12 col-md-12">
+        <div class="footerRedes">
+            <a href="https://www.facebook.com/profile.php?id=100080368554193"><img src="../assets/img/footer/logoface 2-2.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/cavarelojesjoyas/"><img src="../assets/img/footer/logoinsta50px-2.png" alt="Instagram"></a>
         </div>
     </footer>
 <!-- JavaScript Bundle with Popper -->
