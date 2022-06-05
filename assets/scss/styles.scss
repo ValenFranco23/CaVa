@@ -1,12 +1,8 @@
-* {
+*{
     margin: 0;
     padding: 0;
-    }
+}
 @import "nav";
-@import "index";
-@import "casio";
-@import "footer";
-@import "garmin";
-@import "joyas";
+@import "variables";
+@import "cards";
 @import "quienes";
-@import "relojes";
