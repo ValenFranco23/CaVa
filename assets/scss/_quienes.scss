@@ -22,11 +22,12 @@
 }
 .cardQuienes img{
 	width: auto;
-	height: auto;
+	height: 350px;
 }
 .infoQuienes{
     align-self: center;
 	padding-left: 30px;
+	padding-right: 10px;
 }
 @media screen and (max-width:800px){
 	.cardQuienes{
